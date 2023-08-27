@@ -3,7 +3,7 @@
 *{
     box-sizing: border-box;
 }
-
+/*NAV*/
 body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -90,6 +90,7 @@ body{
     color: rgba(38, 23, 103, 0.86);
 }
 
+/*HEADER*/
 .header{
     display: flex;
     flex-flow: row wrap;
@@ -143,11 +144,100 @@ body{
     flex: 40%;
 }
 
-img{
+header img {
     max-width: 90%;
     margin-left: 5px;
+    border-radius: 60px 15px 60px 15px;
+}    
+
+/*SECTION*/
+section{
+    display: inline-block;
+    margin: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    text-align: center;
 }
 
+section h2{
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    color: #01054c;
+}
 
+.services{
+    display: inline-block;
+    margin-top: 5%;
+}
 
+.card{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid #01d9fe;
+    border-radius: 60px 15px 60px 15px;
+    box-shadow: 0 0 1px #01054c;
+}
+
+.hidden{
+    display: none;
+}
+
+.card:hover{
+    background: #01054c;
+    color: #fff;
+    padding: 40px;
+}
+
+.card:hover img{
+    display: none;
+}
+
+.card:hover .card-text{
+    display: none;
+}
+
+.card:hover .hidden{
+    display: block;
+}
+
+/*FOOTER*/
+footer{
+    margin-top: 100px;
+    height: 400px;
+    background-image: linear-gradient(180deg,  #01054c,#272c82);
+    text-align: center;
+    border: 1px solid  #01d9fe;
+}
+
+footer p{
+    color:#fff;
+}
+
+footer b{
+    font-size: 25px;
+    color: #fff;
+}
+
+.logo-rodape{
+    padding: 100px;
+}
+
+.agencia{
+    font-family: 'Lobster', cursive;
+    color: #fff;
+    font-size: 34px;
+}
+
+.whats{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    
+}
 
