@@ -14,7 +14,7 @@ body{
     display: flex;
     flex-flow: row wrap;
     height: 100px;
-    background-color: rgba(0, 0, 0, 0.86);
+    background-color: #01054c;
     justify-content: center;
     align-items: center;
     width: 100%;    
@@ -22,14 +22,14 @@ body{
 
 .logo{
     font-size: 2em;
-    color: white;
+    color:  #83c0ff;
     user-select: none;
     margin-left: 15px;
 }
 
 .logo h1{
     font-family: 'Lobster', cursive;
-    color: #24e14d;
+    color:  #01d9fe;
     font-size: 34px;
 }
 
@@ -43,7 +43,7 @@ body{
 .menu a{
   position: relative;
   font-size: 1.5em;
-  color: #24e14d;
+  color: #01d9fe;
   text-decoration: none;
   font-weight: 500;
   margin-left: 40px; 
@@ -56,7 +56,7 @@ body{
     bottom: -6px;
     width: 100%;
     height: 3px;
-    background: #24e14d;
+    background: #fff;
     border-radius: 6px;
     transform-origin: right;
     transform: scaleX(0);
@@ -72,12 +72,12 @@ body{
     width: 130px;
     height: 50px;
     background-color: transparent;
-    border: 2px solid #24e14d;
+    border: 2px solid;
     outline: none;
     border-radius: 6px;
     cursor: pointer;
-    font-size: 1.1em;
-    color: #24e14d;
+    font-size: 1.5em;
+    color: #fff;
     font-weight: 500;
     margin-left: 40px;
     transition: .5s;
@@ -85,9 +85,34 @@ body{
 
 .menu .btnLogin-popup:hover{
     letter-spacing: 0.3rem;
-    background:#24e14d;
-    color: #fff;
+    background:#fff;
+    color: rgba(38, 23, 103, 0.86);
 }
+
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.headline{
+    margin-left: 10%;
+    flex: 40%;
+}
+
+.headline h2{
+    font-weight: 900;
+    font-size: 20px;
+    color: #01054c;
+}
+
+.healine p{
+    color:gray;
+    text-align: ;
+}
+
 
 
 
