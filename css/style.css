@@ -10,11 +10,11 @@ body{
 }
 
 .navbar{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     flex-flow: row wrap;
     height: 100px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.86);
     justify-content: center;
     align-items: center;
     width: 100%;    
@@ -66,6 +66,27 @@ body{
 .menu a:hover::after{
     transform-origin: left;
     transform: scaleX(1);
+}
+
+.menu .btnLogin-popup{
+    width: 130px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid #24e14d;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #24e14d;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+}
+
+.menu .btnLogin-popup:hover{
+    letter-spacing: 0.3rem;
+    background:#24e14d;
+    color: #fff;
 }
 
 
