@@ -12,12 +12,12 @@ body{
 .navbar{
     /* border: 1px solid red; */
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-flow: row wrap;
     height: 100px;
     background-color: #01054c;
-    justify-content: center;
-    align-items: center;
-    width: 100%;    
+    width: auto;    
 }
 
 .logo{
@@ -238,6 +238,51 @@ footer b{
     position: fixed;
     bottom: 5px;
     right: 5px;
-    
 }
 
+/*RESPONSIVO*/
+@MEDIA screen and (max-width:931px){
+
+    .navbar{
+        position: relative;
+        height: 100%;
+    
+    }
+
+    .menu{
+        display:inline-flex;
+
+    }
+
+    .logo{
+        margin: 0;
+        text-align: center;
+    }
+
+    .header{
+        padding-top: 50px;
+    }
+
+    .headline{
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+
+    .headline p{
+        text-align: center;
+    }
+
+    .img-headline{
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+    .card{
+        width: 100%;
+    }
+
+    .whats{
+        display: none;
+    }
+}
